@@ -1,0 +1,36 @@
+{
+  "Name": "DemoAutofill",
+  "CreationDate": "2019-1-25",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://translate.google.com.mx/?hl=es",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=source",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=source",
+      "Value": "Esto es un mensaje de texto"
+    },
+    {
+      "Command": "click",
+      "Target": "/html/body/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]/div[3]",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "/html/body/div[2]/div[4]/div/div[2]/div[2]/div[2]/div/div[2]/div[51]/div[2]",
+      "Value": ""
+    },
+    {
+      "Command": "verifyText",
+      "Target": "/html/body/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]",
+      "Value": "This is a text message"
+    }
+  ]
+}

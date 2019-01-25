@@ -1,0 +1,31 @@
+{
+  "Name": "DemoAutofill",
+  "CreationDate": "2019-1-25",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://www.youtube.com/",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "name=search_query",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "name=search_query",
+      "Value": "queen"
+    },
+    {
+      "Command": "click",
+      "Target": "id=search-icon-legacy",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "link=Queen In The 90s",
+      "Value": ""
+    }
+  ]
+}
